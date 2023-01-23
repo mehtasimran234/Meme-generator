@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.app-header {
+    display: flex; 
+    align-items: center;
+    height: 65px;
+    width: 100%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+}
+
+.header--image {
+    height: 100%;
+    padding: 20px;
+}
+
+.header--title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 21px;
+    line-height: 24px;
+    margin-right: auto;
+}
+
+.header--text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    padding-right: 20px;
+}
