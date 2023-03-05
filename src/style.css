@@ -33,7 +33,35 @@ body {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 18px;
     padding-right: 20px;
+}
+
+main {
+    padding: 40px;
+}
+
+.form {
+    display: grid;
+    grid: auto / auto auto;
+    grid-gap: 20px;
+}
+
+.form--input {
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    height: 35px;
+    font-family: 'Karla', sans-serif;
+    text-indent: 5px;
+}
+
+.form--button {
+    grid-column: 1 / -1;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-family: 'Karla', sans-serif;
 }
